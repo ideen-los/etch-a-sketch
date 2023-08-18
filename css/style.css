@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #fffaf4;
+  background-color: #dfdfe8;
   padding-bottom: 140px;
 }
 
@@ -25,9 +25,8 @@ body {
   height: 600px;
   margin-top: 20px;
   border: solid #212020;
-  border-width: 1px;
+  border-width: 0;
   cursor: pointer;
-  box-shadow: 10px 10px #212020;
   background-color: #fff;
 }
 
@@ -45,9 +44,17 @@ body {
   border-color: coral;
 }
 
+.button-container {
+  display: flex;
+  width: 600px;
+  gap: 15px;
+}
+
 button {
+  width: 50%;
   border: 0;
-  background-color: transparent;
+  background-color: #212020;
+  color: #f0f0f0;
   padding: 30px 50px;
   cursor: pointer;
   text-transform: uppercase;
@@ -56,6 +63,6 @@ button {
 }
 
 button:hover {
-  background-color: #212020;
-  color: #fff;
+  background-color: #fff;
+  color: #212020;
 }
